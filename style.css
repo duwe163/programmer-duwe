@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background: #e0dfd7;
+  color: #242323;
+}
+
+.container {
+  display: flex;
+  max-width: 1100px;
+  margin: 20px auto;
+}
+
+.sidebar {
+  flex: 1;
+  background: #faf7f7;
+  padding: 20px;
+  margin-right: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.sidebar .profile-pic img {
+  width: 90%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.sidebar h2 {
+  margin-bottom: 5px;
+}
+
+.sidebar .title {
+  font-size: 14px;
+  color: #777;
+}
+
+.sidebar p {
+  margin: 5px 0;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.progress {
+  width: 100%;
+  background: #8a8888;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  height: 15px;
+}
+
+.progress div {
+  height: 20px;
+  background: rgb(29, 188, 209);
+}
+
+.main {
+  flex: 2;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  margin-bottom: 15px;
+}
+
+.job, .edu {
+  margin-bottom: 15px;
+}
+
+.date {
+  color: teal;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-image: linear-gradient(to right,blue,purple,yellow);
+ width: 100%;
+ font-family: tahoma;
+ font-size: large;
+  color: #fff;
+  margin-top: 20px;
+}
